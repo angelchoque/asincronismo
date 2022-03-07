@@ -1,0 +1,20 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:ch": "node src/callback/challenge.js",
+    "promise": "node src/promise/index.js",
+    "promise:ch": "node src/promise/challenge.js",
+    "async": "node src/async/index.js",
+    "async:ch": "node src/async/challenge.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
